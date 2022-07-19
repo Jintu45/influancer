@@ -183,24 +183,15 @@ img{
 }
             /* footer section design  */
   
-    .footer-section {
-        background-color: rgb(2, 26, 112);
-        grid-column: 1 / -1;
-        height: 200px;
-        text-align: center;
-        color: #fff;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-        padding: 20px 0px;
-    }
-    .footer-section h1{
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
-        font-size: 40px;
-    }
-    .footer-section p{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+.footer-section{
+    background: #1e026a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer-section h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
